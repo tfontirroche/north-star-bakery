@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: #FFF8ED;
+    color: #2F241F;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF8ED;
+}
+
+header img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #6B4423;
+    margin: 10px 0;
+}
+nav {
+    background-color: #6B4423;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #FFF8ED;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C8874A;
+}
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #6B4423;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+picture img {
+    display: block;
+    width: 100%;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+footer {
+    background-color: #6B4423;
+    color: #FFF8ED;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+legend {
+    color: #6B4423;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: inherit;
+    margin-top: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6B4423;
+    color: #FFF8ED;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C8874A;
+}
+@media (min-width: 768px) {
+    main {
+        padding: 40px 30px;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    header {
+        padding: 30px;
+    }
+    .product-grid {
+    flex-direction: row;
+}
+}
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product-grid section {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.product-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 25px;
+    border: 2px solid #7A4B24;
+    border-radius: 10px;
+    background-color: white;
+}
