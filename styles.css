@@ -125,6 +125,11 @@ button {
 button:hover {
     background-color: #C8874A;
 }
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 @media (min-width: 768px) {
     main {
         padding: 40px 30px;
@@ -140,11 +145,6 @@ button:hover {
     .product-grid {
     flex-direction: row;
 }
-}
-.product-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
 }
 .product-grid section {
     flex: 1;
