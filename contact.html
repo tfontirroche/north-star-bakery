@@ -28,13 +28,14 @@
     <section>
     <h2>Preorder or Inquiry Form</h2>
 
-    <form>
+    <form id="contact-form" novalidate>
         <fieldset>
             <legend>Your Request</legend>
             <label for="name">Name:</label>
 <input type="text" id="name" name="name" required>
 <label for="email">Email:</label>
 <input type="email" id="email" name="email" required>
+<p id="email-error" class="error-message"></p>
 <label for="pickup-date">Pickup Date:</label>
 <input type="date" id="pickup-date" name="pickup-date">
 <label for="request-type">Request Type:</label>
@@ -45,6 +46,7 @@
 </select>
 <label for="item-details">Item Details:</label>
 <textarea id="item-details" name="item-details" required></textarea>
+<p id="details-error" class="error-message"></p>
 <label for="allergy-notes">Allergy Notes (if applicable):</label>
 <textarea id="allergy-notes" name="allergy-notes"></textarea>
 <button type="submit">Submit Request</button>
@@ -61,6 +63,7 @@
 </main> 
 <footer>
     <p>&copy; 2026 North Star Bakery</p>
-</footer>    
+</footer>
+<script src="script.js"></script>    
 </body>
 </html>
